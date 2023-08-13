@@ -1,13 +1,26 @@
 {
-  "version": "1.0",
   "name": "gamma-gradient",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "parcel build",
+    "test": "jest"
+  },
   "dependencies": {
-    "color": "^4.2.3"
+    "color": "latest"
   },
   "devDependencies": {
-    "@types/color": "^3.0.3",
-    "parcel": "^2.9.3",
+    "@parcel/packager-ts": "latest",
+    "@parcel/transformer-typescript-types": "latest",
+    "@types/color": "latest",
+    "@types/jest": "latest",
+    "jest": "latest",
+    "parcel": "latest",
     "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "ts-jest": "latest",
+    "typescript": "latest"
   }
 }
