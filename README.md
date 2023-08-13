@@ -2,10 +2,7 @@
 
 CSS gradients are lacklusture.
 
-<div style="display: flex; color: white">
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, red, lime);">red-green</div>
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, blue, red);">blue-red</div>
-</div>
+<img src="readme/css.svg" width="100%" height="50" alt="CSS gradients" />
 
 Notice how transitioning from red to green leaves a dull greyish-brown color in the middle.
 
