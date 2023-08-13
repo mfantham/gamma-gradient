@@ -10,13 +10,11 @@ That's because these gradients are calculated using linear interpolation in the 
 
 This Gamma Gradients library provides two methods to produce vivid gradients in CSS.
 
+**Gamma-Correction:** This method involves linear interpolation subsequent to gamma correction. The result is a gradient that aligns more closely with human visual perception in the real world.
 <img src="readme/gamma.svg" width="100%" height="50" alt="Gamma-corrected gradients" />
 
-**Gamma-Correction:** This method involves linear interpolation subsequent to gamma correction. The result is a gradient that aligns more closely with human visual perception in the real world.
-
-<img src="readme/hsl.svg" width="100%" height="50" alt="HSL-interpolated gradients" />
-
 **HSL-Correction**: By interpolating across the HSL color space, this method maintains richer hues than RGB interpolation.
+<img src="readme/hsl.svg" width="100%" height="50" alt="HSL-interpolated gradients" />
 
 ## Installation
 
