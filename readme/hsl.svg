@@ -1,0 +1,8 @@
+<svg fill="none" viewBox="0 0 500 50" width="100%" height="50" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; color: white; width: 100%">
+      <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(24, 100%, 50%), hsl(48, 100%, 50%), hsl(72, 100%, 50%), hsl(96, 100%, 50%), hsl(120, 100%, 50%));">hsl correction</div>
+      <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, rgb(0, 0, 255), rgb(102, 0, 255), rgb(204, 0, 255), rgb(255, 0, 204), rgb(255, 0, 102), rgb(255, 0, 0))">hsl correction</div>
+    </div>
+  </foreignObject>
+</svg>

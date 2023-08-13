@@ -10,17 +10,11 @@ That's because these gradients are calculated using linear interpolation in the 
 
 This Gamma Gradients library provides two methods to produce vivid gradients in CSS.
 
-<div style="display: flex; color: white">
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, #FF0000, #E08800, #BABA00, #88E000, #00FF00);">gamma correction</div>
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, #0000FF, #8800E0, #BA00BA, #E00088, #FF0000);">gamma correction</div>
-</div>
+<img src="readme/gamma.svg" width="100%" height="50" alt="Gamma-corrected gradients" />
 
 **Gamma-Correction:** This method involves linear interpolation subsequent to gamma correction. The result is a gradient that aligns more closely with human visual perception in the real world.
 
-<div style="display: flex; color: white">
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(24, 100%, 50%), hsl(48, 100%, 50%), hsl(72, 100%, 50%), hsl(96, 100%, 50%), hsl(120, 100%, 50%));">hsl correction</div>
-  <div style="flex-grow: 1; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, rgb(0, 0, 255), rgb(102, 0, 255), rgb(204, 0, 255), rgb(255, 0, 204), rgb(255, 0, 102), rgb(255, 0, 0))">hsl correction</div>
-</div>
+<img src="readme/hsl.svg" width="100%" height="50" alt="HSL-interpolated gradients" />
 
 **HSL-Correction**: By interpolating across the HSL color space, this method maintains richer hues than RGB interpolation.
 
@@ -67,8 +61,7 @@ const gradient = getGammaGradientString("#FF0000", "#0000FF");
 console.log(gradient);
 ```
 
-<div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, red, blue); color: white">basic css linear-gradient</div>
-<div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, rgb(255, 0, 0), rgb(224, 0, 136), rgb(186, 0, 186), rgb(136, 0, 224), rgb(0, 0, 255)); color: white">gamma correction default settings</div>
+<img src="readme/gamma-compare.svg" width="100%" height="100" alt="CSS vs gamma gradients" />
 
 ### HSL Gradient
 
@@ -86,8 +79,7 @@ const hslGradient = getHSLGradientString("#FF0000", "#00FF00");
 console.log(hslGradient);
 ```
 
-<div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, red, green); color: white">basic css linear-gradient</div>
-<div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 102, 0), rgb(255, 204, 0), rgb(204, 255, 0), rgb(102, 255, 0), rgb(0, 255, 0)); color: white">hsl 6 steps</div>
+<img src="readme/hsl-compare.svg" width="100%" height="100" alt="CSS vs HSL gradients" />
 
 ## Inspiration, maths, and playground
 

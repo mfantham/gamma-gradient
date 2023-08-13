@@ -1,0 +1,8 @@
+<svg fill="none" viewBox="0 0 300 100" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="color: white; width: 100%">
+      <div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, red, blue); color: white">basic css linear-gradient</div>
+      <div style="width: 300px; height: 50px;  line-height: 50px; text-align: center;background: linear-gradient(to right, rgb(255, 0, 0), rgb(224, 0, 136), rgb(186, 0, 186), rgb(136, 0, 224), rgb(0, 0, 255)); color: white">gamma correction default settings</div>
+    </div>
+  </foreignObject>
+</svg>
